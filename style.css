@@ -250,6 +250,11 @@ textarea {
     color: #889eab;
 }
 
+.contact-submit:hover {
+    background-color: azure;
+    color: #889eab;
+}
+
 /* aside mulai dari sini */
 
 aside {
