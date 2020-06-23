@@ -169,8 +169,8 @@ h1 {
   text-align: center;
   margin-top: 15px;
   font-size: 15px;
-	padding-left: 30px;
-	
+  padding-left: 30px;
+  position: sticky;
 }
 
 
