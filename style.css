@@ -170,7 +170,7 @@ h1 {
   margin-top: 15px;
   font-size: 15px;
   padding-left: 30px;
-  position: sticky;
+  position: absolute;
 }
 
 
