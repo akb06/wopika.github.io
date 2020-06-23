@@ -177,13 +177,14 @@ h1 {
 
 .produk img {
       width: 70%;
-	  height: auto;
+      height: auto;
   }
 
 .produk img:hover {
       width: 80%;
-	  animation-duration: 2s;
-		animation-delay: 2s;
+      animation-duration: 2s;
+      animation-delay: 2s;
+      transition: ease-in-out;
   }
 
 /* tentang mulai dari sini */
