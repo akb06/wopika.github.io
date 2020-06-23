@@ -1,0 +1,282 @@
+* {
+	scroll-behavior: smooth;
+	}
+
+body {
+    margin: 0px; 
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+li {
+    list-style: none;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+}
+
+/* header mulai dari sini */
+.header {
+	height: 85px;
+	width: 100%;
+	background-color: #eba4db;
+	margin: 0px;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.logo {
+	width: 175px;
+	padding: 15px 20px;
+}
+
+.header-logo {
+	float: left;
+}
+
+.header-list {
+	color: white;
+	text-decoration: none;
+	float: right;
+	padding-right: 20px;
+}
+
+.header-list a {
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: all 0.5s;
+	line-height: 65px;
+}
+
+.header-list li {
+	background-color: #eba4db;
+}
+
+.header-list li:hover {
+    background-color: rgb(226, 186, 235)
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+/* cover mulai dari sini */
+
+.cover {
+    padding: 5px 0 200px 0;
+    background-color: azure;
+    background-size: cover;
+    color: white /*rgb(174, 94, 190)*/; 
+    text-align: center;
+	background-image: url("../image/coverdark.png") ;
+	width: 100%;
+					
+}
+
+.cover-text {
+    z-index: 8;
+    padding-top: 60px;
+}
+
+h1 {
+	padding-top: 60px;
+	font-size: 60px
+}
+
+.cover-text p {
+    padding: 6px;
+    font-size: 18px;
+	
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pesan {
+    background-color: #239b76;
+  }
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+	text-decoration: none;
+ }
+  
+.btn:hover {
+    opacity: 1;
+}
+
+/* produk mulai dari sini */
+
+.produks {
+	width: 100%;
+	background-size: cover;
+    background-color: azure;
+}
+
+.konten {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-size: cover;
+    background-color: azure;
+    text-align: center;
+}
+
+.konten h2 {
+    color: rgb(174, 94, 190);
+}
+
+.produk-list h3 {
+    color: rgb(174, 94, 190);
+}
+
+.produk-list p {
+    color: rgb(174, 94, 190);
+	text-align: center;
+}
+
+
+
+.produk-list {
+	text-align: center;
+    background-color: azure;
+	display: flex;
+	
+}
+
+.produk {
+	flex: 1;
+}
+
+.txt-produk {
+  width: 80%;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+	padding-left: 30px;
+	
+}
+
+
+
+.produk img {
+      width: 70%;
+	  height: auto;
+  }
+
+.produk img:hover {
+      width: 80%;
+	  animation-duration: 2s;
+		animation-delay: 2s;
+  }
+
+/* tentang mulai dari sini */
+
+.tentang {
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: azure;
+    text-align: center;
+    color: rgb(174, 94, 190);
+}
+
+.tentang p {
+	padding: 0px 290px;
+}
+
+.gambartim img {
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+/* hubungi mulai dari sini */
+
+.hubungi {
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-color: #97A7CB;
+    text-align: left;
+    color: white;
+    overflow: auto;
+	display: flex;
+}
+
+.kontak {
+    flex: 1;
+}
+
+input {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+  
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+/* aside mulai dari sini */
+
+aside {
+    flex: 1;
+	border: 1px;
+    }
+
+.profile {
+    text-align: center;
+    background-color: #97A7CB;    
+}  
+
+.profile p {
+        text-align: center;
+}  
+
+.profile img {
+        width: 200px;
+}
+
+/* footer */
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #eba4db;
+    text-align: center;
+    font-weight: bold;
+    clear: both;
+}
+
